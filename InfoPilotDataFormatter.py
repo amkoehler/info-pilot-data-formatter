@@ -125,9 +125,8 @@ for i in range (1, len(csvData)):
     x += 1
     trialNum = 0
 
-print formattedData
 ###
-### List is now formatted correctly. Next step is to write list formattedData to a csv file.
+### List is now formatted correctly. Final step is to write list formattedData to a csv file.
 ###
 
 output = open('output.csv', 'wb')
